@@ -1,11 +1,23 @@
 // Styling for the contact section
 section#contact {
   background-color: $gray-900;
-  background-image: url('../img/map-image.png');
+  background-image: url('/img/technological-sense-geometric-line-simple.jpg');
   background-repeat: no-repeat;
   background-position: center;
   .section-heading {
     color: $white;
+  }
+  .contact {
+    color: white;
+    font-family: 'Montserrat', 'Roboto' , 'Helvetica Neue', arial, sans-serif;
+    padding-bottom: 1rem;
+  }
+  .contact a {
+    color: white;
+    font-family: 'Montserrat', 'Roboto' , 'Helvetica Neue', arial, sans-serif;
+  }
+  .contact a:hover {
+    color: cyan;
   }
   .form-group {
     margin-bottom: 25px;
