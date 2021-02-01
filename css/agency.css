@@ -454,7 +454,12 @@ header.masthead .intro-text .intro-heading {
   border-left-width: 0;
 }
 
+.timeline > li a {
+  color: black;
+}
+
 .timeline > li .timeline-image {
+  font-size: 24px;
   position: absolute;
   z-index: 100;
   left: 0;
@@ -468,10 +473,18 @@ header.masthead .intro-text .intro-heading {
   background-color: white;
 }
 
+.timeline > li .timeline-image i {
+  font-size: 24px;
+}
+
 .timeline > li .timeline-image h4 {
   font-size: 10px;
   line-height: 14px;
   margin-top: 12px;
+}
+
+.timeline > li .timeline-image h4.resume {
+  margin-top: auto;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel {
@@ -532,6 +545,9 @@ header.masthead .intro-text .intro-heading {
     height: 100px;
     margin-left: -50px;
   }
+  .timeline > li .timeline-image i {
+    font-size: 24px;
+  }
   .timeline > li .timeline-image h4 {
     font-size: 13px;
     line-height: 18px;
@@ -556,6 +572,9 @@ header.masthead .intro-text .intro-heading {
     height: 150px;
     margin-left: -75px;
   }
+  .timeline > li .timeline-image i {
+    font-size: 48px;
+  }
   .timeline > li .timeline-image h4 {
     font-size: 18px;
     line-height: 26px;
@@ -577,6 +596,9 @@ header.masthead .intro-text .intro-heading {
     width: 170px;
     height: 170px;
     margin-left: -85px;
+  }
+  .timeline > li .timeline-image i {
+    font-size: 48px;
   }
   .timeline > li .timeline-image h4 {
     margin-top: 40px;
