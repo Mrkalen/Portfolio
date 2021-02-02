@@ -2,4 +2,10 @@
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  font-size: .75rem;
+}
+@media (min-width: 992px) {
+  .technologies {
+    width: 75%;
+  }
 }
