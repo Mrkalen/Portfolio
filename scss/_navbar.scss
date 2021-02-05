@@ -6,13 +6,13 @@
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: black;
+    color: white;
     border: 0;
-    background-color: $primary;
+    background-color: rgb(1, 67, 153);
     @include heading-font;
   }
   .navbar-brand {
-    color:black;
+    color:white;
     @include script-font;
     &.active,
     &:active,
@@ -54,6 +54,7 @@
     border: none;
     background-color: transparent;
     .navbar-brand {
+      color: black;
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
@@ -71,6 +72,7 @@
       padding-bottom: 0;
       background-color: $gray-900;
       .navbar-brand {
+
         font-size: 1.25em;
         padding: 12px 0;
       }
